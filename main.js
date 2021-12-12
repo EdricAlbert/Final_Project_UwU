@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(window).scroll(function(){    
-        if(this.scrollY > 150){
+        if(this.scrollY > 130){
             $('.navbar').addClass("sticky");
         }else{
             $('.navbar').removeClass("sticky");

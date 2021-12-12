@@ -20,6 +20,7 @@
     z-index: 999;
     font-family: sans-serif;
     transition: all 0.3s ease;
+    background: black;
 }
 .navbar .max-width{
     display: flex;
@@ -27,20 +28,24 @@
     justify-content: space-between;
 }
 .navbar .logo a{
+    padding-right: 800px;
     font-size: 40px;
     font-weight: 600;
     color: black;
     transition: color 0.3s ease;
+}
+.navbar .logo{
+    padding-top: 10px;
 }
 .navbar.sticky{
     padding: 15px 0;
     background: white;
 }
 .navbar.sticky .logo a{
-    color: white;
+    color: black;
 }
 .navbar.sticky .menu li a{
-    color: white;
+    color: black;
 }
 .navbar.sticky .menu li a:hover{
     color: crimson;
@@ -54,7 +59,7 @@
 }
 .navbar .menu li a{
     color: white;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
