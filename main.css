@@ -29,11 +29,8 @@
 .navbar .logo a{
     font-size: 40px;
     font-weight: 600;
-    color: white;
+    color: black;
     transition: color 0.3s ease;
-}
-.navbar .logo a:hover{
-    color: gray;
 }
 .navbar.sticky{
     padding: 15px 0;
@@ -56,7 +53,7 @@
     display: inline-block;
 }
 .navbar .menu li a{
-    color: black;
+    color: white;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
