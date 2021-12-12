@@ -3,7 +3,91 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
-body{
-    font-family: 'Righteous', cursive
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    z-index: 999;
+    font-family: sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    transition: color 0.3s ease;
+}
+.navbar .logo a:hover{
+    color: gray;
+}
+.navbar.sticky{
+    padding: 15px 0;
+    background: black;
+}
+.navbar.sticky .logo a{
+    color: white;
+}
+.navbar.sticky .menu li a{
+    color: white;
+}
+.navbar.sticky .menu li a:hover{
+    color: crimson;
+}
+.navbar.sticky .logo a:hover{
+    color: crimson;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: yellow;
+}
+.trangchu{
+    display: flex;
+    background: url(Pictures/Filmo\ \(4\).png) no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Ubuntu','sans-serif';
+}
+.trangchu .max-width{
+    margin: auto 0 auto 40px;
+}
+.trangchu .trangchu-content .text-1{
+    font-size: 40px;
+    color: Cyan;
+}
+.trangchu .trangchu-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.trangchu .trangchu-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+    color: cyan;
+}
+.trangchu .trangchu-content .text-3 span{
+    color: rgb(153, 255, 0);
+    font-weight: 500;
 }
