@@ -26,7 +26,7 @@
 .navbar .logo a{
     font-size: 40px;
     font-weight: 600;
-    color: black;
+    color: white;
     transition: color 0.3s ease;
 }
 .navbar .logo a:hover{
@@ -34,7 +34,7 @@
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: black;
+    background: white;
 }
 .navbar.sticky .logo a{
     color: white;
@@ -64,7 +64,7 @@
 }
 .trangchu{
     display: flex;
-    background: url(Pictures/Filmo\ \(4\).png) no-repeat center;
+    background: url(Pictures/220-2205714_get-the-latest-movies-data-src-kodi-tv.jpg) no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
