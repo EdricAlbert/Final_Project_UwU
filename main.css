@@ -34,7 +34,9 @@
     justify-content: space-between;
 }
 .navbar .logo a{
-    padding-right: 800px;
+    padding: 0px 0px 0px 40px;
+    position: absolute;
+    left: 0;
     font-size: 40px;
     font-weight: 600;
     color: black;
@@ -106,4 +108,23 @@
 .trangchu .trangchu-content .text-3 span{
     color: rgb(153, 255, 0);
     font-weight: 500;
+}
+
+.botBg {
+    background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(Pictures/220-2205714_get-the-latest-movies-data-src-kodi-tv.jpg) no-repeat center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* search box */
+.search-container input{
+width: 35rem;
+height: 60px;
+padding-left: 20px;
+border: none;
+border-radius: 20px;
+color:black;
+font-size: 25px;
 }
