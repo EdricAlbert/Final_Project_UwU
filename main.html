@@ -21,6 +21,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <!-- topBg -->
@@ -31,30 +32,30 @@
                 <li><a href="#">Movies</a></li>
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Settings</a></li>
-                <li><a href="signUp.html">Sign in <i class="fas fa-sign-out-alt pl-2"></i></a></li>        </div>
+                <li><a href="#">Sign in <i class="fas fa-sign-out-alt pl-2"></i> </a></li>
+            </ul>
+        </div>
     </nav>
 
     <div class="bg-black h-76 pt-20">
-    <h1 class="signUp text-white text-8xl ml-12 mb-10 pt-20">Filmo</h1>
-    <p class="subHeading text-white ml-12 text-lg pb-24">Dive into our high resolution movies!</p>
+    <h1 class="signUp text-white text-9xl ml-12 mb-10 pt-20">Filmo</h1>
+    <p class="subHeading text-white ml-12 text-3xl pb-24">Dive into our high resolution movies!</p>
     </div>
  <!-- topBg -->
 
  <!-- botBg -->
  
  <div class="botBg">
-    <div class="search-container">
+    <div data-aos="fade-up" data-aos-delay="50" data-aos-easing="ease-in-out"  class="search-container">
         <input type="text" placeholder="Search movies...">
     </div>
 </div>
  <!-- botBg -->
-<div class="temp"></div>
-<hr>
-<section class="about">
-    <div class="max-width">
-        
-    </div>
-</section>
+
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
